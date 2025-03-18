@@ -1,0 +1,14 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore OS and temporary files
+.DS_Store
+
+# Ignore Excel file (if we want users to provide their own)
+radar_entries.xlsx
+
+# Ignore node-related files (in case npm is used later)
+node_modules/
+package-lock.json
+yarn.lock
