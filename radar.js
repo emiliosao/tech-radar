@@ -26,6 +26,17 @@ function radar_visualization(config) {
   config.svg_id = config.svg || "radar";
   config.width = config.width || 1450;
   config.height = config.height || 1000;
+
+
+  config.rings = [
+    { name: "ADOPT", color: "#FF2308" },
+    { name: "TRIAL", color: "#EBA795" },
+    { name: "ASSESS", color: "#FFBB94" },
+    { name: "HOLD", color: "#000000" }
+];
+
+
+  
   // config.colors = ("colors" in config) ? config.colors : {
   //     background: "#fff",
   //     grid: '#dddde0',
