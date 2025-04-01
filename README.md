@@ -36,6 +36,7 @@ Blackbirds Tech Radar is a simple, self-hosted tool to visualize technology adop
 ## Customizing the Style
 - Modify `index.html` to change visual elements such as colors, fonts, and layout.
 - `radar.css` controls the main styles of the radar visualization.
+   - Styles can also be overriden in `radar.js` by commenting out the lines at the beginning of the `radar_visualization` function.
 
 ## Notes
 This radar was designed for [Blackbirds.ai](https://www.blackbirds.ai/), but it can be adapted and hosted anywhere.
