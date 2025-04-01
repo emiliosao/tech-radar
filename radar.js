@@ -28,12 +28,12 @@ function radar_visualization(config) {
   config.height = config.height || 1000;
 
 
-  config.rings = [
-    { name: "ADOPT", color: "#FF2308" },
-    { name: "TRIAL", color: "#EBA795" },
-    { name: "ASSESS", color: "#FFBB94" },
-    { name: "HOLD", color: "#000000" }
-];
+//   config.rings = [
+//     { name: "ADOPT", color: "#FF2308" },
+//     { name: "TRIAL", color: "#EBA795" },
+//     { name: "ASSESS", color: "#FFBB94" },
+//     { name: "HOLD", color: "#5EB6D7" }
+// ];
 
 
   
