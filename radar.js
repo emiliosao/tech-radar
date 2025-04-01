@@ -28,20 +28,33 @@ function radar_visualization(config) {
   config.height = config.height || 1000;
 
 
-//   config.rings = [
-//     { name: "ADOPT", color: "#FF2308" },
-//     { name: "TRIAL", color: "#EBA795" },
-//     { name: "ASSESS", color: "#FFBB94" },
-//     { name: "HOLD", color: "#5EB6D7" }
-// ];
+  // Uncomment the following block to manually set ring colors and names directly in radar.js
+  /*
+  config.rings = [
+    { name: "ADOPT", color: "#FF2308" },
+    { name: "TRIAL", color: "#EBA795" },
+    { name: "ASSESS", color: "#FFBB94" },
+    { name: "HOLD", color: "#5EB6D7" }
+  ];
+  */
 
-
+  // Style Configuration (Font and Colors)
+  // You can manually override font family and size here.
+  // Example:
+  // config.font_family = "Arial, Helvetica";
+  // config.font_family = config.font_family || "Arial, Helvetica";
+  // config.font_size = "12px"; // Adjust as needed
+  // config.font_size = config.font_size || "14px"; // Default font size
   
-  // config.colors = ("colors" in config) ? config.colors : {
-  //     background: "#fff",
-  //     grid: '#dddde0',
-  //     inactive: "#ddd"
-  //   };
+  // Uncomment and customize the following block to set default colors
+  /*
+  config.colors = ("colors" in config) ? config.colors : {
+      background: "#fff",
+      grid: '#dddde0',
+      inactive: "#ddd"
+  };
+  */
+  
  function getBackgroundColor() {
     return "transparent"; // Inherit background from index.html
 }
