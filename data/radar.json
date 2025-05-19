@@ -1,0 +1,341 @@
+{
+  "date": "2025-03",
+  "entries": [
+    {
+      "label": "Python",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Adopt",
+      "link": "",
+      "moved": "no change"
+    },
+    {
+      "label": "Scikit-Learn",
+      "quadrant": "Platforms",
+      "ring": "Adopt",
+      "link": "https://scikit-learn.org/",
+      "moved": "no change"
+    },
+    {
+      "label": "R",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Adopt",
+      "link": "",
+      "moved": "no change"
+    },
+    {
+      "label": "Jupyter Notebook",
+      "quadrant": "Platforms",
+      "ring": "Adopt",
+      "link": "https://jupyter.org/",
+      "moved": "no change"
+    },
+    {
+      "label": "PyTorch",
+      "quadrant": "Platforms",
+      "ring": "Adopt",
+      "link": "https://pytorch.org/",
+      "moved": "no change"
+    },
+    {
+      "label": "TensorFlow",
+      "quadrant": "Platforms",
+      "ring": "Adopt",
+      "link": "https://www.tensorflow.org/",
+      "moved": "no change"
+    },
+    {
+      "label": "PySpark",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Trial",
+      "link": "",
+      "moved": "no change"
+    },
+    {
+      "label": "SQL",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Adopt",
+      "link": "",
+      "moved": "no change"
+    },
+    {
+      "label": "Azure Machine Learning",
+      "quadrant": "Platforms",
+      "ring": "Adopt",
+      "link": "https://azure.microsoft.com/en-us/products/machine-learning/",
+      "moved": "no change"
+    },
+    {
+      "label": "Databricks",
+      "quadrant": "Platforms",
+      "ring": "Trial",
+      "link": "https://www.databricks.com/",
+      "moved": "no change"
+    },
+    {
+      "label": "Git",
+      "quadrant": "Tools",
+      "ring": "Adopt",
+      "link": "",
+      "moved": "no change"
+    },
+    {
+      "label": "PostgreSQL",
+      "quadrant": "Tools",
+      "ring": "Trial",
+      "link": "",
+      "moved": "no change"
+    },
+    {
+      "label": "PyCharm",
+      "quadrant": "Tools",
+      "ring": "Hold",
+      "link": "",
+      "moved": "no change"
+    },
+    {
+      "label": "VS Code",
+      "quadrant": "Tools",
+      "ring": "Adopt",
+      "link": "",
+      "moved": "no change"
+    },
+    {
+      "label": "CI/CD",
+      "quadrant": "Techniques",
+      "ring": "Assess",
+      "link": "",
+      "moved": "no change"
+    },
+    {
+      "label": "Excel",
+      "quadrant": "Tools",
+      "ring": "Hold",
+      "link": "",
+      "moved": "no change"
+    },
+    {
+      "label": "Hadoop",
+      "quadrant": "Platforms",
+      "ring": "Adopt",
+      "link": "",
+      "moved": "no change"
+    },
+    {
+      "label": "PyGAME",
+      "quadrant": "Platforms",
+      "ring": "Hold",
+      "link": "https://www.pygame.org/",
+      "moved": "no change"
+    },
+    {
+      "label": "NetworkX",
+      "quadrant": "Platforms",
+      "ring": "Adopt",
+      "link": "https://networkx.org/",
+      "moved": "no change"
+    },
+    {
+      "label": "NLTK",
+      "quadrant": "Platforms",
+      "ring": "Assess",
+      "link": "https://www.nltk.org/",
+      "moved": "no change"
+    },
+    {
+      "label": "GIS",
+      "quadrant": "Platforms",
+      "ring": "Adopt",
+      "link": "",
+      "moved": "no change"
+    },
+    {
+      "label": "QGIS",
+      "quadrant": "Platforms",
+      "ring": "Hold",
+      "link": "https://qgis.org/en/site/",
+      "moved": "no change"
+    },
+    {
+      "label": "MapInfo",
+      "quadrant": "Platforms",
+      "ring": "Hold",
+      "link": "https://www.precisely.com/product/precisely-mapinfo",
+      "moved": "no change"
+    },
+    {
+      "label": "SPSS",
+      "quadrant": "Platforms",
+      "ring": "Hold",
+      "link": "",
+      "moved": "no change"
+    },
+    {
+      "label": "WordPress.org",
+      "quadrant": "Platforms",
+      "ring": "Trial",
+      "link": "https://wordpress.org/",
+      "moved": "up"
+    },
+    {
+      "label": "Apache",
+      "quadrant": "Tools",
+      "ring": "Trial",
+      "link": "\u00a0https://httpd.apache.org/",
+      "moved": "up"
+    },
+    {
+      "label": "MySQL",
+      "quadrant": "Tools",
+      "ring": "Adopt",
+      "link": "",
+      "moved": "up"
+    },
+    {
+      "label": "Cloudflare",
+      "quadrant": "Tools",
+      "ring": "Trial",
+      "link": "https://www.cloudflare.com/",
+      "moved": "up"
+    },
+    {
+      "label": "HTML",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Trial",
+      "link": "",
+      "moved": "up"
+    },
+    {
+      "label": "CSS",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Assess",
+      "link": "",
+      "moved": "up"
+    },
+    {
+      "label": "Feature Engineering",
+      "quadrant": "Techniques",
+      "ring": "Adopt",
+      "link": "",
+      "moved": "no change"
+    },
+    {
+      "label": "Data Mining",
+      "quadrant": "Techniques",
+      "ring": "Assess",
+      "link": "",
+      "moved": "no change"
+    },
+    {
+      "label": "Network Science",
+      "quadrant": "Techniques",
+      "ring": "Adopt",
+      "link": "",
+      "moved": "no change"
+    },
+    {
+      "label": "Predictive Modeling",
+      "quadrant": "Techniques",
+      "ring": "Adopt",
+      "link": "",
+      "moved": "no change"
+    },
+    {
+      "label": "Cloud Computing",
+      "quadrant": "Techniques",
+      "ring": "Adopt",
+      "link": "",
+      "moved": "no change"
+    },
+    {
+      "label": "Geospatial Analysis",
+      "quadrant": "Techniques",
+      "ring": "Hold",
+      "link": "",
+      "moved": "no change"
+    },
+    {
+      "label": "ETL",
+      "quadrant": "Techniques",
+      "ring": "Assess",
+      "link": "",
+      "moved": "no change"
+    },
+    {
+      "label": "Web Development Basics",
+      "quadrant": "Techniques",
+      "ring": "Trial",
+      "link": "",
+      "moved": "up"
+    },
+    {
+      "label": "Hugo",
+      "quadrant": "Platforms",
+      "ring": "Trial",
+      "link": "https://gohugo.io/",
+      "moved": "up"
+    },
+    {
+      "label": "DigitalOcean",
+      "quadrant": "Platforms",
+      "ring": "Adopt",
+      "link": "https://www.digitalocean.com/",
+      "moved": "up"
+    },
+    {
+      "label": "Javascript",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Assess",
+      "link": "",
+      "moved": "up"
+    },
+    {
+      "label": "Markdown",
+      "quadrant": "Tools",
+      "ring": "Trial",
+      "link": "",
+      "moved": "up"
+    },
+    {
+      "label": "Zsh/Bash",
+      "quadrant": "Techniques",
+      "ring": "Adopt",
+      "link": "",
+      "moved": "up"
+    },
+    {
+      "label": "SSH",
+      "quadrant": "Tools",
+      "ring": "Adopt",
+      "link": "",
+      "moved": "no change"
+    },
+    {
+      "label": "SFTP",
+      "quadrant": "Tools",
+      "ring": "Trial",
+      "link": "",
+      "moved": "up"
+    },
+    {
+      "label": "Github",
+      "quadrant": "Tools",
+      "ring": "Adopt",
+      "link": "https://github.com/",
+      "moved": "up"
+    },
+    {
+      "label": "DataSpell",
+      "quadrant": "Tools",
+      "ring": "Adopt",
+      "link": "https://www.jetbrains.com/dataspell/",
+      "moved": "up"
+    },
+    {
+      "label": "LaTeX",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Adopt",
+      "link": "",
+      "moved": "no change"
+    }
+  ]
+}

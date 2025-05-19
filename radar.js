@@ -23,20 +23,57 @@
 
 function radar_visualization(config) {
 
+  // --- Mapping block: convert string quadrant/ring to integer indices ---
+  const quadrantMap = {
+    "Languages & Frameworks": 0,
+    "Languages": 0,
+    "Tools": 1,
+    "Platforms": 2,
+    "Techniques": 3
+  };
+  const ringMap = {
+    "Adopt": 0,
+    "ADOPT": 0,
+    "Trial": 1,
+    "TRIAL": 1,
+    "Assess": 2,
+    "ASSESS": 2,
+    "Hold": 3,
+    "HOLD": 3
+  };
+
+  config.entries = config.entries.map(entry => {
+    const newEntry = { ...entry };
+    if (typeof newEntry.quadrant === "string") {
+      newEntry.quadrant = quadrantMap[newEntry.quadrant];
+    }
+    if (typeof newEntry.ring === "string") {
+      newEntry.ring = ringMap[newEntry.ring];
+    }
+    if (typeof newEntry.moved === "string") {
+      if (newEntry.moved === "up") newEntry.moved = 2;
+      else if (newEntry.moved === "down") newEntry.moved = -1;
+      else newEntry.moved = 0;
+    }
+    if (typeof newEntry.active === "undefined") {
+      newEntry.active = true;
+    }
+    return newEntry;
+  });
+
   config.svg_id = config.svg || "radar";
   config.width = config.width || 1450;
   config.height = config.height || 1000;
 
 
   // Uncomment the following block to manually set ring colors and names directly in radar.js
-  /*
+
   config.rings = [
     { name: "ADOPT", color: "#FF2308" },
     { name: "TRIAL", color: "#EBA795" },
     { name: "ASSESS", color: "#FFBB94" },
     { name: "HOLD", color: "#5EB6D7" }
   ];
-  */
 
   // Style Configuration (Font and Colors)
   // You can manually override font family and size here.
